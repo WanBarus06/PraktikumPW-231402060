@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="home" id="home">
+    <nav>
+        <div>
+            <img src="wb-high-resolution-logo-color-on-transparent-background.png" alt="logo">
+        </div>
+        <ul>
+            <li><a href="#" onclick="scrollToId('home')">Home</li></a>
+            <li><a href="#" onclick="scrollToId('project')">Mini Project</li></a>
+            <li><a href="#" onclick="scrollToId('edu')">Education</li></a>
+            <li><a href="#" onclick ="scrollToId('con')">Contact</li></a>
+            
+        </ul>
+    </nav>
+
+   <div class="text">
+    <h2 style="color: white;"><span style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 600; font-size: 40px; padding-bottom: 10px; color: white;">Wan Guntar <span style="color: red;">Alam Barus</span></Barus></span><br>Undergraduate Information & Technology</h2>
+
+    <div class="img">
+        <img src="IMG_20230817_213734-removebg-preview.png">
+    </div>
+   </div>
+</div>
+
+   <div class="project" id="project">
+    <h1>My Mini Project</h1>
+
+   </div>
+   <div class="container">
+    <div class="row">
+      <div class="dc">
+        <div class="card">
+          <img src="Screenshot (126).png" alt="Card Image 1">
+          <div class="card-body">
+            <h2><a href="https://wanguntaralam.000webhostapp.com/">HTML CSS Blog</a></h2>
+          </div>
+        </div>
+      </div>
+      <div class="dc">
+        <div class="card">
+          <img src="Screenshot (127).png" alt="Card Image 2">
+          <div class="card-body">
+            <h2>Form Registration with HTML CSS</h2>
+          </div>
+        </div>
+      </div>
+      <div class="dc">
+        <div class="card">
+          <img src="Screenshot (125).png" alt="Card Image 3" width="200px" height="300px">
+          <div class="card-body">
+            <h2>Making Website with HTML CSS & Bootstrap</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    
+    function scrollToId(id) {
+        var element = document.getElementById(id);
+        element.scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+</script>
+  
+
+</body>
+</html>
