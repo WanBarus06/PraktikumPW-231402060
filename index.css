@@ -111,8 +111,23 @@ nav ul li a:hover{
   
 .edu {
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.school{
+  padding-left: 50px;
+  text-align: left;
 }
   
-  
+.contact{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.aaa{
+  padding-left: 50px;
+}
   
 
